@@ -3,12 +3,15 @@ Install Python on linux:
 - sudo apt upgrade
 - sudo apt install python[version number]
 - sudo apt install python3-pip
+  
 Using Venev
 - sudo apt install python3-venv
 - mkdir myproject
 - cd myproject
 - python3 -m venv myenv
 - source myenv/bin/activate # This should be run from the same folder of your venev (which in this case it's myproject)
+
+  
 Deactive or remove
 - deactivate
 - rm -rf myenv
